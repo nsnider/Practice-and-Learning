@@ -1,0 +1,16 @@
+graph LR;
+    Start["A box is created by indentation and text"];
+    Title["square is [ ]"];
+    Box2("rounded is ( )");
+    Bubble(("circle is (( ))"));
+    Shape>"> and ]"]
+    Curve{"{ }"};
+    A -- title on open link --- B;
+    click A "http://www.google.com" "New link here"
+    B--> |title on opaque on link|C;
+    style B fill:#f9f, stroke:#333, stroke-width:1px;
+    B-.->D;
+    C-.text.->E;
+    C==>F;
+    D==fat_text==>G;
+    D-->H;
